@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { LoadingIndicatorComponent } from './loading-indicator.component';
-import { startLoadingIndicator, stopLoadingIndicator } from './loading-indicator.decorators';
+import { startLoadingIndicator, stopLoadingIndicator } from '../loading-indicator.decorators';
 import {skip, take} from 'rxjs/operators';
 
 class TriggerLoadingIndicator {
