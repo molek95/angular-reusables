@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LOADING_INDICATOR_CONFIG } from 'projects/loading-indicator/src/public_api';
 
 @NgModule({
   declarations: [
@@ -10,9 +11,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    LoadingIndicatorModule
+    LoadingIndicatorModule.forRoot()
   ],
-  providers: [],
+  providers: [{provide: LOADING_INDICATOR_CONFIG, useValue: {color: 'blue', size: 80}}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
