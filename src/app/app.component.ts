@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { startLoadingIndicator, stopLoadingIndicator } from '@molek/loading-indicator';
+import { startLoadingIndicator, stopLoadingIndicator } from 'loading-indicator';
 
 @Component({
   selector: 'app-root',

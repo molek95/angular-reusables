@@ -1,4 +1,4 @@
-import { LoadingIndicatorModule } from '@molek/loading-indicator.module';
+import { LoadingIndicatorModule } from 'loading-indicator';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

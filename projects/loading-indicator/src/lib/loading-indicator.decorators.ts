@@ -1,5 +1,5 @@
 import { distinctUntilChanged } from 'rxjs/operators';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 const indicatorSubject = new BehaviorSubject<boolean>(false);
 
